@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color:rgb(245, 227, 192) ;
+}
+.navbar{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.menu-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.list{
+    cursor: pointer;
+}
+
+.hire-btn{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;    
+}
+
+
+.home-banner{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.download-btn{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main{
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.about-me{
+    text-align: center;
+    background-color: rgb(245, 227, 192);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.what-i-do{
+    margin-top: 120px ;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.my-skill{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    text-align: start;
+}
